@@ -23,3 +23,5 @@ func main() {
 
 ```
 
+You can check out the [Types](https://github.com/masnun/tvmaze/blob/master/types.go)
+to know which fields are available. 

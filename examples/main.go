@@ -6,6 +6,6 @@ import "fmt"
 func main() {
 	results := tvmaze.Search("doctor who")
 	for _, result := range results {
-		fmt.Println(result.Show.Name)
+		fmt.Println(result.Show.Name, "-", result.Score)
 	}
 }
